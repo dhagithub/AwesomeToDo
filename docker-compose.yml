@@ -62,7 +62,8 @@ services:
         condition: service_healthy  # PHP-FPMの正常動作を確認してから起動
 
     networks:
-      - app-networkgit
+      #- app-networkgit
+      - app-network
 
 networks:
   app-network:
