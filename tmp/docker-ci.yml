@@ -21,3 +21,4 @@ jobs:
       # PHPUnit テストの実行
       - name: Run PHPUnit tests
         run: docker compose exec app ./vendor/bin/phpunit --configuration phpunit.xml
+        
